@@ -1,0 +1,271 @@
+.fondo {
+    background: url(fondo.jpg);
+    height: 45rem;
+    width: 32rem;
+    margin: 0rem auto;
+    background-position: -35rem;
+    
+}
+
+.selena {
+    background: url(selena.png);
+    height: 45rem;
+    margin: 0rem auto;
+    position: relative;
+}
+
+.titulo{
+    color: white;
+    font-size: 15rem;
+    font-family: 'Cormorant Garamond', serif;
+    position: absolute;
+    top: -17rem;
+}
+
+#t1 {
+    left: 39rem;
+}
+
+#t2 {
+    left: 31.5rem;
+}
+
+.amarillo {
+    color: yellow;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    position: absolute;
+}
+
+#nom {
+    left: 31.75rem;
+    top: 9rem;
+    font-size: 4rem;
+}
+
+.blancocursiva {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.8rem;
+    color: white;
+    position: absolute;
+}
+
+#ariz1 {
+    left: 33.8rem;
+    top: 16.8rem;
+}
+
+.blanco1, .blanco2, .blanco3, .blanco4 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    position: absolute;
+    font-size: 1.5rem;
+}
+
+#ariz2, #ariz3 {
+    left: 33.8rem;
+    top: 16.5rem;
+}
+
+#ariz3 {
+    top: 17.8rem;
+}
+
+.blanco2 {
+    font-size: 1.1rem;
+}
+
+#ariz4, #ariz5, #ariz6 {
+    left: 33.85rem;
+    top: 19.8rem;
+}
+
+#ariz5 {
+    top: 20.8rem;
+}
+
+#ariz6 {
+    top: 21.8rem;
+}
+
+#plus {
+    font-size: 0.8rem;
+    font-family: 'Cormorant Garamond', serif;
+    left: 33.8rem;
+    top: 30rem;
+}
+
+.blanco3 {
+    font-size: 2rem;
+}
+
+#aiz1, #aiz2{
+    left: 33.85rem;
+    top: 29.1rem;
+}
+
+#aiz2{
+    top: 30.8rem;
+}
+
+.blanco4 {
+    font-size: 1rem;
+}
+
+#aiz3, #aiz4, #aiz5, #aiz6, #aiz7, #aiz8 {
+    top: 34rem;
+    left: 33.9rem;
+}
+
+#aiz4 {
+    top: 34.9em;
+}
+
+#aiz5 {
+    top: 35.8rem;
+}
+
+#aiz6 {
+    top: 37.3rem;
+}
+
+#aiz7 {
+    top: 38.2rem;
+}
+#aiz8 {
+    top: 39.1rem;
+}
+
+#ard1, #ard2 {
+    top: 11rem;
+    left: 57.9rem;
+    font-size: 1rem;
+}
+
+#ard2 {
+    top: 11.8rem;
+    left: 59.5rem;
+}
+
+#ard3 {
+    top: 12.9rem;
+    left: 57.95rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.9rem;
+}
+
+#ard4 {
+    top: 12.9rem;
+    left: 57.2rem;
+}
+
+#ard5 {
+    top: 14.1rem;
+    left: 58.1rem;
+}
+
+#ard6 {
+    top: 15.6rem;
+    left: 57rem;
+}
+
+#ard7 {
+    top: 16.8rem;
+    left: 59rem;
+}
+
+#ard8 {
+    top: 18.05rem;
+    left: 57.83rem;
+}
+
+#ard9 {
+    top: 20.3rem;
+    left: 58.6rem;
+}
+
+#ard10 {
+    top: 21.25rem;
+    left: 55.8rem;
+}
+
+#ard11 {
+    top: 22.2rem;
+    left: 58.6rem;
+}
+
+#ard12 {
+    top: 24.1rem;
+    left: 59.6rem;
+}
+
+#ard13 {
+    top: 24.9rem;
+    left: 58.5rem;
+}
+
+#ard14 {
+    top: 25.7rem;
+    left: 58.3rem;
+}
+
+#ard15 {
+    top: 26.5rem;
+    left: 59.2rem;
+}
+
+#ad1 {
+    top: 25rem;
+    left: 59rem;
+}
+
+
+#ad2 {
+    top: 34rem;
+    left: 58.5rem;
+}
+
+#ad3 {
+    top: 32.6rem;
+    left: 56.5rem;
+    font-size: 2.6rem;
+}
+
+#ad4 {
+    top: 36.1rem;
+    left: 57.9rem;
+    font-size: 1.5rem;
+}
+
+#ad5, #ad6, #ad7, #ad8 {
+    top: 38rem;
+    left: 60rem;
+    font-size: 1rem;
+}
+
+#ad6 {
+    top: 38.8rem;
+    left: 58.2rem;
+}
+
+#ad7 {
+    top: 39.8rem;
+    left: 57.5rem;
+}
+
+#ad8 {
+    top: 40.6rem;
+    left: 57rem;
+}
+
+#f1,#f2{
+    left: 34rem;
+    top: 42.6rem;
+    font-size: 0.45rem;
+}
+
+#f2 {
+    top: 43.2rem;
+}
+
+
