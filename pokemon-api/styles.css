@@ -1,0 +1,20 @@
+#root {
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.pokemon{
+    text-align: center;
+    background:rgb(118, 200, 255);
+    /* border: solid 1px #ddd; */
+    border-radius: 10px;
+    margin: 0 5px 10px 5px;
+    padding: 10px;
+    cursor: pointer;
+}
