@@ -65,3 +65,80 @@
     align-self: flex-end; }
   .member--five {
     align-self: flex-end; }
+
+@media (max-width: 1050px) {
+  .team__title {
+    font-family: "PT Serif", Arial, Helvetica, sans-serif;
+    font-size: 1.5625rem;
+    font-weight: 700; }
+  .team__subtitle {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600; }
+  .team__information {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 400; } }
+
+@media (max-width: 768px) {
+  .team__title {
+    font-family: "PT Serif", Arial, Helvetica, sans-serif;
+    font-size: 1.5625rem;
+    font-weight: 700; }
+  .team__subtitle {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600; }
+  .team__information {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 400; }
+  .member__role {
+    height: fit-content;
+    writing-mode: vertical-lr;
+    margin-left: 0.5vw;
+    font-family: "PT Serif", Arial, Helvetica, sans-serif;
+    font-size: 0.5625rem;
+    font-weight: 400; }
+  .member__name {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600; } }
+
+@media (max-width: 576px) {
+  .team__details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto 10vh; }
+  .team__title {
+    font-family: "PT Serif", Arial, Helvetica, sans-serif;
+    font-size: 1.5625rem;
+    font-weight: 700;
+    align-self: flex-start; }
+  .team__subtitle {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 600; }
+  .team__information {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 0.8125rem;
+    font-weight: 400; }
+  .member__role {
+    height: fit-content;
+    writing-mode: vertical-lr;
+    margin-left: 0.5vw;
+    font-family: "PT Serif", Arial, Helvetica, sans-serif;
+    font-size: 0.5625rem;
+    font-weight: 400; }
+  .member__photo {
+    width: 23vw; }
+  .member--two {
+    align-self: flex-end; }
+  .member--four {
+    align-self: flex-end; }
+  .member--five {
+    align-self: flex-start; }
+  .member--six {
+    align-self: flex-end; } }

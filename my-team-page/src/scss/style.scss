@@ -86,3 +86,107 @@
     }
 
 }
+
+
+@media (max-width: 1050px){
+    .team{
+        &__title{
+            @include font-family('PT Serif', 25px, 700);
+        }
+
+        &__subtitle{
+            @include font-family('Poppins', 13px, 600);
+        }
+    
+        &__information{
+            @include font-family('Poppins', 13px, 400);
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .team{
+        &__title{
+            @include font-family('PT Serif', 25px, 700);
+        }
+
+        &__subtitle{
+            @include font-family('Poppins', 13px, 600);
+        }
+    
+        &__information{
+            @include font-family('Poppins', 13px, 400);
+        }
+    }
+
+    .member{
+        &__role{
+            height: fit-content;
+            writing-mode: vertical-lr;
+            margin-left: 0.5vw;
+    
+            @include font-family('PT Serif', 9px, 400);
+        }
+    
+        &__name{
+            @include font-family('Poppins', 13px, 600);
+        }
+    
+    }
+}
+
+@media (max-width: 576px){
+    .team{
+        &__details{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 80%;
+            margin: 0 auto 10vh;
+        }
+        
+        &__title{
+            @include font-family('PT Serif', 25px, 700);
+            align-self: flex-start
+        }
+
+        &__subtitle{
+            @include font-family('Poppins', 13px, 600);
+        }
+    
+        &__information{
+            @include font-family('Poppins', 13px, 400);
+        }
+    }
+
+    .member{
+        &__role{
+            height: fit-content;
+            writing-mode: vertical-lr;
+            margin-left: 0.5vw;
+    
+            @include font-family('PT Serif', 9px, 400);
+        }
+    
+
+        &__photo{
+            width: 23vw;
+        }
+
+        &--two{
+            align-self: flex-end;
+        }
+        
+        &--four{
+            align-self: flex-end;
+        }
+
+        &--five{
+            align-self: flex-start;
+        }
+
+        &--six{
+            align-self: flex-end;
+        }
+    }
+}
