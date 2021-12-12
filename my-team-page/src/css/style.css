@@ -1,0 +1,67 @@
+.team {
+  margin-top: 10vh; }
+  .team__details {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto 10vh; }
+  .team__title {
+    flex: 2;
+    font-family: "PT Serif", Arial, Helvetica, sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    align-self: center;
+    margin-left: 8vw; }
+  .team__description {
+    flex: 3;
+    margin-left: 10vw; }
+  .team__subtitle {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase; }
+  .team__information {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    width: 80%; }
+  .team__crew {
+    display: flex;
+    flex-wrap: wrap;
+    width: 62vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 140vh;
+    gap: 4vh 0; }
+  .team__footer {
+    height: 3vh;
+    font-family: "Monserrat", Arial, Helvetica, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #a9a9a9;
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 3vh; }
+
+.member {
+  flex: 1; }
+  .member__profile {
+    display: flex; }
+  .member__photo {
+    width: 16vw; }
+  .member__role {
+    height: fit-content;
+    writing-mode: vertical-lr;
+    margin-left: 0.5vw;
+    font-family: "PT Serif", Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .member__name {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 600; }
+  .member--two {
+    align-self: flex-end; }
+  .member--five {
+    align-self: flex-end; }

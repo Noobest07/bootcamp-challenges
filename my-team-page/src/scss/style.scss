@@ -1,0 +1,88 @@
+@import './functions';
+@import './fonts';
+
+.team{
+    margin-top: 10vh;
+    &__details{
+        display: flex;
+        justify-content: space-around;
+        width: 80%;
+        margin: 0 auto 10vh;
+    }
+
+    &__title{
+        flex: 2;
+        @include font-family('PT Serif', 36px, 700);
+        align-self: center;
+        margin-left: 8vw;
+    }
+
+    &__description{
+        flex: 3;
+        margin-left: 10vw;
+    }    
+        
+    &__subtitle{
+        @include font-family('Poppins', 18px, 600);
+        text-transform: uppercase;
+    }
+
+    &__information{
+        @include font-family('Poppins', 18px, 400);
+        width: 80%;
+    }
+
+    &__crew{
+        display: flex;
+        flex-wrap: wrap;
+        width: 62vw;
+        margin-left: auto;
+        margin-right: auto;
+        height: 140vh;
+        gap: 4vh 0;
+    }
+
+    &__footer{
+        height: 3vh;
+        @include font-family('Monserrat', 14px, 500);
+        color: #a9a9a9;
+        text-align: center;
+        margin-top: 15vh;
+        margin-bottom: 3vh;
+    }
+
+}
+
+.member{
+    flex: 1;
+
+    &__profile{
+        display: flex;
+    }
+
+    &__photo{
+        width: 16vw;
+    }
+
+    &__role{
+        height: fit-content;
+        writing-mode: vertical-lr;
+        margin-left: 0.5vw;
+
+        @include font-family('PT Serif', 12px, 400);
+        text-transform: uppercase;
+    }
+
+    &__name{
+        @include font-family('Poppins', 18px, 600);
+    }
+
+    &--two{
+        align-self: flex-end;
+    }
+
+    &--five{
+        align-self: flex-end;
+    }
+
+}
