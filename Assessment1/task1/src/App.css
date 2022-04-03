@@ -1,0 +1,31 @@
+
+.box, .options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 430px;
+  margin-top: 5px;
+}
+
+.box > div, .options > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cuadro{
+  border: grey solid;
+  border-width: 0.01px;
+}
+
+.options{
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+
+}
+
+.black {
+  background-color: black;
+}
