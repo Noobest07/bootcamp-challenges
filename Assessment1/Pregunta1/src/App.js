@@ -1,6 +1,5 @@
 import React from 'react'
 import { useState } from 'react';
-import { render } from 'react-dom';
 import './App.css'
 import { Cuadro } from './Cuadro.jsx';
 import { Selector } from './Selector';

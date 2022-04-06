@@ -7,7 +7,7 @@ export function Selector ({changeSelector, fondo, color}) {
         backgroundColor: fondo,
         width: '40px',
         height: '40px',
-        border: color == fondo ? 'yellow solid' : '',
+        border: color === fondo ? 'yellow solid' : '',
       }}
       onClick = {() => {changeSelector(fondo)}}
     >
